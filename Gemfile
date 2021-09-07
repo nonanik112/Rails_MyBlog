@@ -8,7 +8,9 @@ gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 gem 'sassc-rails', '~> 2.1', '>= 2.1.2'
 gem 'jquery-rails', '~> 4.4'
 gem 'bcrypt', '~> 3.1.7'
-gem 'nokogiri', '~> 1.12', '>= 1.12.4'
+
+#gem 'will_paginate',           '3.1.5'
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.4', '>= 6.1.4.1'
@@ -54,6 +56,7 @@ group :test do
   gem 'selenium-webdriver'
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
+  gem 'rexml', '~> 3.2', '>= 3.2.5'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
